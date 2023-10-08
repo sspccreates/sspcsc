@@ -9,20 +9,20 @@ body {
 }
 
 .container {
-  width: 300px;
+  width: 250px; /* Adjusted container width */
   text-align: center;
 }
 
 .content {
   background-color: white;
-  padding: 20px;
+  padding: 15px; /* Adjusted padding */
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 input {
-  padding: 10px;
-  width: 100%;
+  padding: 8px; /* Adjusted padding */
+  width: calc(100% - 16px); /* Adjusted width */
   margin-bottom: 10px;
 }
 
@@ -40,5 +40,5 @@ button:hover {
 }
 
 h1 {
-  margin-bottom: 20px;
+  margin-bottom: 15px; /* Adjusted margin */
 }
