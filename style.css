@@ -6,6 +6,7 @@ body {
   align-items: center;
   height: 100vh;
   background-color: #FFD700; /* Yellow-ish background color */
+  font-family: Arial, sans-serif; /* Use a professional font */
 }
 
 .container {
@@ -24,6 +25,7 @@ input {
   padding: 8px; /* Adjusted padding */
   width: calc(100% - 16px); /* Adjusted width */
   margin-bottom: 10px;
+  font-size: 14px; /* Adjusted font size */
 }
 
 button {
@@ -33,6 +35,7 @@ button {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  font-size: 14px; /* Adjusted font size */
 }
 
 button:hover {
@@ -41,4 +44,6 @@ button:hover {
 
 h1 {
   margin-bottom: 15px; /* Adjusted margin */
+  color: #333; /* Adjusted text color */
+  font-size: 20px; /* Adjusted font size */
 }
